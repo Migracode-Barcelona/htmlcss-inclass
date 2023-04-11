@@ -4,7 +4,7 @@
 
 Here’s what you’ll see when you open Developer Tools:
 
-![](<./.contents/image (66).png>)
+![](<./.content/image (66).png>)
 
 A standard web page, but with a new set of tools open in a panel on the right of the page.
 
@@ -28,25 +28,25 @@ By default, Developer Tools opens with the Elements tab open.
 
 **Elements** shows you the HTML used to build the page you’re looking at, together with any inline CSS.
 
-![](<./.contents/image (13).png>)
+![](<./.content/image (13).png>)
 
 **Console** deals with JavaScript. It gives you information about interactive elements on a page. In Console, you can write JavaScript to interact with the web page you’re viewing, and it also lets you write messages to yourself in the JavaScript of websites you’re building, which then show up in Console to show that the JS was executed.
 
-![](<./.contents/image (175).png>)
+![](<./.content/image (175).png>)
 
 The **Sources** tab shows you where all the files that were used to make the website are stored and lets you inspect them.
 
-![](<./.contents/image (23).png>)
+![](<./.content/image (23).png>)
 
 The **Network** tab shows you all the files that are loading in the URL you’re looking at.
 
-![](<./.contents/image (85).png>)
+![](<./.content/image (85).png>)
 
 You get a waterfall and deep data on all the items loaded, including initiator and time to load that element.
 
 **Application** shows you what’s in your browser storage: in-browser databases like Web SQL, local storage, and more. It also gives you granular control over your cookies.
 
-![](<./.contents/image (169).png>)
+![](<./.content/image (169).png>)
 
 ### How to open Chrome Developer Tools
 
@@ -62,7 +62,7 @@ From the Chrome menu:
 Open the Chrome menu and go to “More Tools” > “Developer Tools.”\
 
 
-![](<./.contents/image (190).png>)
+![](<./.content/image (190).png>)
 
 Finally, you can right-click (Windows) or Ctrl-click (Mac) anything on a web page and select “Inspect Element” to open Developer Tools.
 
@@ -74,7 +74,7 @@ Just because you’re not a developer doesn’t mean Developer Tools aren’t fo
 
 Most of these will use the Elements tab. Here’s a quick guide to that:
 
-![](<./.contents/image (48).png>)
+![](<./.content/image (48).png>)
 
 The top section shows the HTML for the site.
 
@@ -90,7 +90,7 @@ Once you’ve seen pages where the h1 was an unoptimized image, or pages with fo
 
 Open a page, then open Developer Tools. In the Elements tab, press **CMD+F** or **Ctrl-F** to search and search “h1” to see your page’s tag(s):
 
-![](<./.contents/image (37).png>)
+![](<./.content/image (37).png>)
 
 #### 2. Edit CSS
 
@@ -100,11 +100,11 @@ Suppose I want to see what the FYI homepage would look like with red text.
 
 I open the page, then open Developer Tools. Ctrl-click or right-click the element you want to change on the web page. In the Elements tab I find the color for the element in the bottom left panel:
 
-![](<./.contents/image (153).png>)
+![](<./.content/image (153).png>)
 
 Click on the color box and I can simply click on another color in Chrome Color Picker (more on this later). The text changes immediately.
 
-![](<./.contents/image (84).png>)
+![](<./.content/image (84).png>)
 
 Probably going to leave that black.
 
@@ -114,7 +114,7 @@ When you visit a website, it’s not always easy to see what CMS was used to bui
 
 Open the site and Developer Tools, then look at the top right of the Styles panel in the Elements tab:
 
-![](<./.contents/image (83).png>)
+![](<./.content/image (83).png>)
 
 Right-click or Ctrl-click on the link that starts “style.css” and select “Copy link address.” Paste the link into a new tab and it will tell you the CDN and theme used to build the site—in this case, it’s built using Divi on WordPress.
 
@@ -128,17 +128,17 @@ Open Developer Tools on a web page—you can do this with any web page.
 
 With the Elements tab open, right-click a piece of text on the page. You’ll see the relevant HTML highlighted:
 
-![](<./.contents/image (159).png>)
+![](<./.content/image (159).png>)
 
 Find the three vertical dots on the left side of the HTML for that element, click them, and select “Edit as HTML.”
 
 Even if you don’t know HTML from the DMV, you can still do this: all you’re looking for is the text you clicked on, inside all the code. The HTML is all color-coded, while the text is black. Click on it, and you can type in whatever you like:
 
-![](<./.contents/image (173).png>)
+![](<./.content/image (173).png>)
 
 Click on the background to exit the HTML and your changes appear in the page itself:
 
-![](<./.contents/image (73).png>)
+![](<./.content/image (73).png>)
 
 Yes, it looked better before. But this way you can find out for sure, and tailor your copy precisely to the layout and design it will be used with.
 
@@ -148,35 +148,35 @@ Yes, it looked better before. But this way you can find out for sure, and tailor
 
 Open Developer Tools and look at the top menu bar, where Elements, Console, and Source are displayed. You’ll see two icons on the far left of that bar; the one that looks like a stack of mobile devices is what we’re after.
 
-![](<./.contents/image (133).png>)
+![](<./.content/image (133).png>)
 
 Click that and you’ll see the site you’re on displayed as if you were a mobile visitor:
 
-![](<./.contents/image (189).png>)
+![](<./.content/image (189).png>)
 
 That’s cool, but there’s more you can do with these controls. The icon lets you toggle between mobile and desktop versions of the site. And the controls at the top of the screen let you adjust viewport size. Here’s how it looks on a mobile with a big screen:
 
-![](<./.contents/image (111).png>)
+![](<./.content/image (111).png>)
 
 Here’s how it looks on a tablet:
 
-![](<./.contents/image (3).png>)
+![](<./.content/image (3).png>)
 
 Use these controls to choose the viewport size you want:
 
-![](<./.contents/image (197).png>)
+![](<./.content/image (197).png>)
 
 Use this dropdown to see what the site looks like on different devices:
 
-![](<./.contents/image (72).png>)
+![](<./.content/image (72).png>)
 
 Set viewport size yourself:
 
-![](./.contents/image.png)
+![](./.content/image.png)
 
 And even mimic different connection qualities as you navigate the site:
 
-![](<./.contents/image (216).png>)
+![](<./.content/image (216).png>)
 
 You can do all that and more from the menu bar at the top.
 
@@ -210,7 +210,7 @@ Which parts are the **Tags** and which parts are the **Attributes**.
 
 HTML tags are arranged in a hierarchy. This is sometimes called "nesting" tags or creating an HTML "tree". Between the opening `<article>` tag and the closing `</article>` tag there are three other tags. We call these "child" tags, because they have a parent-child relationship.
 
-![](<./.contents/image (134).png>)
+![](<./.content/image (134).png>)
 
 #### Exercise (5 minutes) <a href="#exercise-5-minutes" id="exercise-5-minutes"></a>
 
@@ -236,11 +236,11 @@ In today's class, we will begin adapting styles on this example website. We'll r
 
 Next image shows how it is right now:
 
-![](<./.contents/image (112).png>)
+![](<./.content/image (112).png>)
 
 And this image shows how should be after you complete it:
 
-![](<./.contents/image (47).png>)
+![](<./.content/image (47).png>)
 
 The example website you'll begin working with is available on this Code Your Future GitHub repository - [Bikes for Refugees](https://github.com/CodeYourFuture/bikes-for-refugees). Fork the repository to your personal account and then clone the repository
 
@@ -289,7 +289,7 @@ CSS applies vastly different specificity weights to classes and IDs. In fact, an
 
 Let’s take a look at how the numbers are actually calculated:
 
-![](<./.contents/image (125).png>)
+![](<./.content/image (125).png>)
 
 In other words:
 
@@ -401,7 +401,7 @@ The CSS Box Model is a term used for the container that wraps the following elem
 
 However, understanding the term “Box Model” makes more sense once it is visually displayed. See the example image below for a more straight breakdown of where these bullet points relate to your HTML content.
 
-![](<./.contents/image (146).png>)
+![](<./.content/image (146).png>)
 
 As you can see from the image above, the content sits inside the box model. In this case, you have an example “p,” (or paragraph) element on display with the simple text “Introduction to CSS Box Model” shown.  In the next few sections, each of these areas will be explained.
 
@@ -430,7 +430,7 @@ div {
 
 This div does not have padding defined, as such, you have the output shown in the image below.
 
-![](<./.contents/image (104).png>)
+![](<./.content/image (104).png>)
 
 Now, the same code is used but a padding value of 40 pixels has been added.
 
@@ -444,7 +444,7 @@ border-color: blue;
 
 This will now alter the padding to give you the following image.
 
-![](<./.contents/image (114).png>)
+![](<./.content/image (114).png>)
 
 It’s easy to see that the added padding between the div content and the border has changed considerably.&#x20;
 
@@ -500,7 +500,7 @@ Using this example code, three separate boxes will be created.
 
 This provides this simple output shown in the image below.&#x20;
 
-![](<./.contents/image (164).png>)
+![](<./.content/image (164).png>)
 
 Now, with some modifications made to the code, we alter how the content is presented in the box model structure. Going back to the use of margins mentioned above, the code below will add **margin** properties to the divs. Notice how each increases in each div.
 
@@ -529,7 +529,7 @@ Now, with some modifications made to the code, we alter how the content is prese
 
 This margin increase can be seen in the spacing provided within the image below.
 
-![](<./.contents/image (54).png>)
+![](<./.content/image (54).png>)
 
 With just a few margin adjustments, there is a great effect in both readability and design change for each box.&#x20;
 
@@ -577,7 +577,7 @@ Take the example CSS code below for reference on using both of these options. Fo
 
 This example CSS code will provide the following box model examples as shown in the image below.
 
-![](<./.contents/image (9).png>)
+![](<./.content/image (9).png>)
 
 As you can see, the method you choose can make drastic changes to the HTML content and how it is rendered to the page. A bit of trial and error can be expected and should be experienced to get a solid footing on your design concepts.&#x20;
 
