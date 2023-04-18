@@ -64,6 +64,6 @@ Let's take a break from flexbox for a minute. Do you remember the `:first-child`
 
 ## Workshop
 
-&#x20;Create a exact clone of [Apple](https://www.apple.com/es/) website.
+&#x20;Create a clone inspired from the [Airbnb](https://www.airbnb.com/) website.
 
 **Note -** It must be mobile responsive and you can not use any third party library.
