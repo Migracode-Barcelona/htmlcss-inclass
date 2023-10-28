@@ -43,9 +43,3 @@ Also add borders and spacing if required to match the design.
 Add a hover effect using CSS, so that:
   1) The links in the top menu navigation become orange on hover
   2) The colours of the buttons are inverted on hover
-
-## Submit your work
-
-Once you've finished, **open a pull request**.
-
-As always, you can use this guide if you need to refresh your memory 👉 https://curriculum.codeyourfuture.io/guides/create-a-pull-request/
